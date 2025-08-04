@@ -39,4 +39,4 @@ oregon-d:
 	terraform destroy -var-file oregon.tfvars -auto-approve
 
 apply-all: virginia ohio california oregon
-destroy-all: virginia-d ohio-d california-d oregon-d 
+destroy-all: virginia-d ohio-d california-d oregon-d 	
